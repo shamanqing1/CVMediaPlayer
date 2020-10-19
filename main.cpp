@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
     QGuiApplication app(argc, argv);
-    QQuickStyle::setStyle("Fusion");
+    QQuickStyle::setStyle("Material");
 
     qmlRegisterType<GrayFilter>("my.video.filter", 1, 0, "GrayFilter");
     qmlRegisterType<CVMediaPlayer>("my.video.cvmedia", 1, 0, "CVMediaPlayer");
